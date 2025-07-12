@@ -6,7 +6,7 @@
 }
 
 .sidebar-el {
-  @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-t-gray text-green-500 hover:bg-green-600 hover:cursor-pointer hover:text-white rounded-3xl hover:rounded-xl transition-all duration-100 ease-linear;
+  @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-md shadow-gray-950 bg-t-gray hover:bg-[#C62368] hover:cursor-pointer hover:text-white rounded-3xl hover:rounded-xl transition-all duration-100 ease-linear;
 }
 .sidebar__tooltip {
   @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-t-gray text-xs font-bold transition-all duration-100 origin-left;
