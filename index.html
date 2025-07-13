@@ -6,26 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
   </head>
-  <body class="bg-[url(/layered-waves-haikei.svg)] bg-no-repeat bg-cover">
+  <body class="bg-[url(/layered-waves-haikei.svg)] bg-no-repeat bg-cover bg-[#001220]">
     <!--<div id="app"></div>-->
+
+    <nav class="relative container mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <div class="pt-2">
+          <img src="/planet.png" alt="Logo">
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <!-- shitf+alt+down-->
+          <a href="#" class="text-amber-50 opacity-80 hover:opacity-100 transition-all duration-100 ease-linear">menu 1</a>
+          <a href="#" class="text-amber-50 opacity-80 hover:opacity-100 transition-all duration-100 ease-linear">menu 2</a>
+          <a href="#" class="text-amber-50 opacity-80 hover:opacity-100 transition-all duration-100 ease-linear">menu 3</a>
+          <a href="#" class="text-amber-50 opacity-80 hover:opacity-100 transition-all duration-100 ease-linear">menu 4</a>
+          <a href="#" class="text-amber-50 opacity-80 hover:opacity-100 transition-all duration-100 ease-linear">menu 5</a>
+        </div>
+        <a href="" class="hidden md:block p-3 px-6 pt-2 text-[#C62368] bg-white rounded-full baseline hover:bg-t-dark-blue hover:text-white transition-all duration-200 ease-linear">Click me</a>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1 class="text-4xl font-bold text-center md:text-5xl md:text-left text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+          <p class="max-w-md text-center text-white md:text-left mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a delectus beatae reiciendis! Natus, enim dignissimos? Maxime harum atque, rerum dignissimos dolore est commodi, omnis dolorem quasi aperiam nisi quod?</p>
+          <p class="max-w-sm text-center text-white md:text-left last:opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a delectus beatae reiciendis! Natus, enim dignissimos? Maxime harum atque, rerum dignissimos dolore est commodi, omnis dolorem quasi aperiam nisi quod?</p>
+          <div class="flex justify-center md:justify-start">
+            <a href="" class="hidden md:block p-3 px-6 pt-2 text-[#C62368] bg-white rounded-full baseline hover:bg-t-dark-blue hover:text-white transition-all duration-200 ease-linear">Click me</a>
+          </div>
+        </div>
+        <div class="md:w-1/2 flex justify-end">
+          <img src="/rocket.png" alt="" class="md:w-1/2">
+        </div>
+      </div>
+    </section>
+
+    <section id="second">
+      <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+
+        <div class="flex flex-col spce-y-12 md:w-1/2">
+          <h2 class="max-w-md text-4xl font-bold text-center md:text-left text-white mb-5">Header</h2>
+          <p class="max-w-sm text-center text-white md:text-left last:opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a delectus beatae reiciendis! Natus, enim dignissimos? Maxime harum atque, rerum dignissimos dolore est commodi, omnis dolorem quasi aperiam nisi quod?</p>
+        </div>
+
+        <div class="flex flex-col space-y-8 md:w-1/2 text-white">
+          <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">111</div>
+        </div>
+      </div>      
+    </section>
 
     <div class="flex">
       <div class="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col text-white justify-center">
         
           <div class="sidebar-el group">1
-            <div class="sidebar__tooltip scale-0 group-hover:scale-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum molestias, nihil molestiae eos autem blanditiis deserunt, dignissimos quia nemo eius ut explicabo ipsam quis ea ipsa, veniam non. Aut, exercitationem?</div>
+            <div class="sidebar__tooltip scale-0 group-hover:scale-100">people assume that time is a strict progression</div>
           </div>
           <div class="sidebar-el group">2
-            <div class="sidebar__tooltip scale-0 group-hover:scale-100">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor aut temporibus nesciunt ipsa. Cum, nobis dolor animi porro adipisci voluptatibus earum voluptas nemo voluptates necessitatibus iste perferendis eveniet. Fuga, saepe.</div>
+            <div class="sidebar__tooltip scale-0 group-hover:scale-100">of cause to effect, but actually</div>
           </div>
           <div class="sidebar-el group">3
-            <div class="sidebar__tooltip scale-0 group-hover:scale-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ex, architecto vero soluta repellat alias odio recusandae quidem illo voluptas impedit eaque ut nisi, maiores ipsam pariatur nobis autem vitae.</div>
+            <div class="sidebar__tooltip scale-0 group-hover:scale-100">from a non-linear, non-subjective viewpoint</div>
           </div>
           <div class="sidebar-el group">4
-            <div class="sidebar__tooltip scale-0 group-hover:scale-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde aliquid saepe eligendi consequatur ad, optio, itaque, quisquam debitis voluptas a ratione iusto quidem mollitia! Quasi laboriosam minima assumenda recusandae ab.</div>
+            <div class="sidebar__tooltip scale-0 group-hover:scale-100">it's more like a big ball of wibbly wobbly...</div>
           </div> 
           <div class="sidebar-el group">5
-            <div class="sidebar__tooltip scale-0 group-hover:scale-100">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum hic minus tenetur similique omnis deleniti, quis, rem ab facilis dolores pariatur voluptate corporis, eaque illo iste non officia at? Placeat.</div>
+            <div class="sidebar__tooltip scale-0 group-hover:scale-100">time-y wimey...stuff</div>
           </div>
         
       </div>
